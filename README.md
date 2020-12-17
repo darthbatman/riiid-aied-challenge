@@ -35,24 +35,24 @@ Training data should be placed at `data/train.csv`. The training data CSV used b
 
 The following are loss vs. epoch plots for the classifier's training stages:
 
-Binary Classifier (2 Layers with Batch Normalization)
-
-<p float="left" align="center">
-  <img src="readme_assets/loss_vs_epoch_plot_bc2lbn.png" width="375" height="250"/>
-</p>
-
 Binary Classifier (3 Layers with Batch Normalization)
-
 
 <p float="left" align="center">
   <img src="readme_assets/loss_vs_epoch_plot_bc3lbn.png" width="375" height="250"/>
 </p>
 
-Binary Classifier (2 Layers without Batch Normalization)
+Binary Classifier (4 Layers with Batch Normalization)
 
 
 <p float="left" align="center">
-  <img src="readme_assets/loss_vs_epoch_plot_bc2l.png" width="375" height="250"/>
+  <img src="readme_assets/loss_vs_epoch_plot_bc4lbn.png" width="375" height="250"/>
+</p>
+
+Binary Classifier (3 Layers without Batch Normalization)
+
+
+<p float="left" align="center">
+  <img src="readme_assets/loss_vs_epoch_plot_bc3l.png" width="375" height="250"/>
 </p>
 
 LSTM Binary Classifier (3 LSTM layers, 2 FC layers)
